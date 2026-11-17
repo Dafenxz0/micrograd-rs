@@ -85,9 +85,7 @@ pub struct Layer {
 impl Layer {
     /// Creates a layer mapping `nin` inputs to `nout` outputs.
     pub fn new(nin: usize, nout: usize, nonlin: bool, rng: &mut Rng) -> Self {
-        let neurons = (0..nout)
-            .map(|_| Neuron::new(nin, nonlin, rng))
-            .collect();
+        let neurons = (0..nout).map(|_| Neuron::new(nin, nonlin, rng)).collect();
         Self { neurons }
     }
 
