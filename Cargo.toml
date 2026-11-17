@@ -1,0 +1,10 @@
+[package]
+name = "micrograd-rs"
+version = "0.1.0"
+edition = "2021"
+description = "A tiny scalar-valued autograd engine and neural network library in pure Rust, ported from karpathy/micrograd"
+license = "MIT"
+repository = "https://github.com/Dafenxz0/micrograd-rs"
+readme = "README.md"
+keywords = ["autograd", "neural-network", "deep-learning", "backpropagation", "micrograd"]
+categories = ["science", "algorithms"]
