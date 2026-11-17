@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="780" viewBox="0 0 1600 780" role="img" aria-label="micrograd-rs 2-16-16-1 neural network architecture 337 trainable parameters">
+<title>micrograd-rs 2-16-16-1 neural network architecture 337 trainable parameters</title>
+<defs>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B9F17D"/><stop offset="1" stop-color="#9FE6DF"/></linearGradient>
+ <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#141F2F"/><stop offset="1" stop-color="#080D14"/></linearGradient>
+ <linearGradient id="aubergine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#251B3A"/><stop offset="1" stop-color="#101824"/></linearGradient>
+ <radialGradient id="glow"><stop offset="0" stop-color="#B9F17D" stop-opacity="0.22"/><stop offset="1" stop-color="#B9F17D" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M 38 0 L 0 0 0 38" fill="none" stroke="#27303E" stroke-opacity="0.32" stroke-width="1"/></pattern>
+ <marker id="arrow" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#94A6B5"/></marker>
+ <marker id="arrowlime" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#B9F17D"/></marker>
+ </defs>
+<rect x="0" y="0" width="1600" height="780" rx="0" fill="#080D14"/>
+<rect x="0" y="0" width="1600" height="780" rx="0" fill="url(#grid)"/>
+<rect x="70" y="60" width="43.2" height="43.2" rx="10.8" fill="#B9F17D"/>
+<text x="91.6" y="91.5" font-family="Inter,Arial,sans-serif" font-size="27.900000000000002" font-weight="800" fill="#080D14" text-anchor="middle" dominant-baseline="alphabetic">µ</text>
+<text x="126" y="85" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" fill="#B9F17D" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="2.1">NEURAL NETWORKS / MLP</text>
+<text x="70" y="170" font-family="Inter,Arial,sans-serif" font-size="62" font-weight="800" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="-1.5">Small library. Real training.</text>
+<text x="72" y="213" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="500" fill="#94A6B5" text-anchor="start" dominant-baseline="alphabetic">A 2 → 16 → 16 → 1 multilayer perceptron with ReLU hidden layers.</text>
+<rect x="70" y="244" width="1460" height="1" rx="0" fill="#293747"/>
+<path d="M272 374 L588 320" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M272 374 L588 365" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M272 374 L588 410" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M272 374 L588 455" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M272 374 L588 500" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M272 374 L588 545" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M272 514 L588 320" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M272 514 L588 365" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M272 514 L588 410" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M272 514 L588 455" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M272 514 L588 500" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M272 514 L588 545" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 320 L958 320" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 320 L958 365" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 320 L958 410" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 320 L958 455" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 320 L958 500" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 320 L958 545" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 365 L958 320" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 365 L958 365" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 365 L958 410" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 365 L958 455" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 365 L958 500" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 365 L958 545" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 410 L958 320" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 410 L958 365" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 410 L958 410" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 410 L958 455" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 410 L958 500" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 410 L958 545" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 455 L958 320" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 455 L958 365" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 455 L958 410" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 455 L958 455" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 455 L958 500" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 455 L958 545" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 500 L958 320" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 500 L958 365" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 500 L958 410" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 500 L958 455" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 500 L958 500" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 500 L958 545" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 545 L958 320" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 545 L958 365" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 545 L958 410" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 545 L958 455" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 545 L958 500" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M632 545 L958 545" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M1002 320 L1308 432" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M1002 365 L1308 432" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M1002 410 L1308 432" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M1002 455 L1308 432" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M1002 500 L1308 432" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<path d="M1002 545 L1308 432" stroke="#293747" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.48"/>
+<text x="250" y="290" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="800" fill="#9FE6DF" text-anchor="middle" dominant-baseline="alphabetic" letter-spacing="1.4">INPUT</text>
+<circle cx="250" cy="374" r="22" fill="#131F2B" stroke="#9FE6DF" stroke-width="2.6"/>
+<circle cx="250" cy="374" r="7" fill="#9FE6DF"/>
+<circle cx="250" cy="514" r="22" fill="#131F2B" stroke="#9FE6DF" stroke-width="2.6"/>
+<circle cx="250" cy="514" r="7" fill="#9FE6DF"/>
+<text x="250" y="622" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="800" fill="#F4F8F5" text-anchor="middle" dominant-baseline="alphabetic" letter-spacing="1.2">2 VALUES</text>
+<text x="610" y="290" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="800" fill="#9FE6DF" text-anchor="middle" dominant-baseline="alphabetic" letter-spacing="1.4">HIDDEN 01</text>
+<circle cx="610" cy="320" r="22" fill="#131F2B" stroke="#C3AEFF" stroke-width="2.6"/>
+<circle cx="610" cy="320" r="7" fill="#C3AEFF"/>
+<circle cx="610" cy="365" r="22" fill="#131F2B" stroke="#C3AEFF" stroke-width="2.6"/>
+<circle cx="610" cy="365" r="7" fill="#C3AEFF"/>
+<circle cx="610" cy="410" r="22" fill="#131F2B" stroke="#C3AEFF" stroke-width="2.6"/>
+<circle cx="610" cy="410" r="7" fill="#C3AEFF"/>
+<circle cx="610" cy="455" r="22" fill="#131F2B" stroke="#C3AEFF" stroke-width="2.6"/>
+<circle cx="610" cy="455" r="7" fill="#C3AEFF"/>
+<circle cx="610" cy="500" r="22" fill="#131F2B" stroke="#C3AEFF" stroke-width="2.6"/>
+<circle cx="610" cy="500" r="7" fill="#C3AEFF"/>
+<circle cx="610" cy="545" r="22" fill="#131F2B" stroke="#C3AEFF" stroke-width="2.6"/>
+<circle cx="610" cy="545" r="7" fill="#C3AEFF"/>
+<text x="610" y="580" font-family="Inter,Arial,sans-serif" font-size="40" font-weight="700" fill="#94A6B5" text-anchor="middle" dominant-baseline="alphabetic">⋮</text>
+<text x="610" y="622" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="800" fill="#F4F8F5" text-anchor="middle" dominant-baseline="alphabetic" letter-spacing="1.2">16 NEURONS</text>
+<text x="980" y="290" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="800" fill="#9FE6DF" text-anchor="middle" dominant-baseline="alphabetic" letter-spacing="1.4">HIDDEN 02</text>
+<circle cx="980" cy="320" r="22" fill="#131F2B" stroke="#C3AEFF" stroke-width="2.6"/>
+<circle cx="980" cy="320" r="7" fill="#C3AEFF"/>
+<circle cx="980" cy="365" r="22" fill="#131F2B" stroke="#C3AEFF" stroke-width="2.6"/>
+<circle cx="980" cy="365" r="7" fill="#C3AEFF"/>
+<circle cx="980" cy="410" r="22" fill="#131F2B" stroke="#C3AEFF" stroke-width="2.6"/>
+<circle cx="980" cy="410" r="7" fill="#C3AEFF"/>
+<circle cx="980" cy="455" r="22" fill="#131F2B" stroke="#C3AEFF" stroke-width="2.6"/>
+<circle cx="980" cy="455" r="7" fill="#C3AEFF"/>
+<circle cx="980" cy="500" r="22" fill="#131F2B" stroke="#C3AEFF" stroke-width="2.6"/>
+<circle cx="980" cy="500" r="7" fill="#C3AEFF"/>
+<circle cx="980" cy="545" r="22" fill="#131F2B" stroke="#C3AEFF" stroke-width="2.6"/>
+<circle cx="980" cy="545" r="7" fill="#C3AEFF"/>
+<text x="980" y="580" font-family="Inter,Arial,sans-serif" font-size="40" font-weight="700" fill="#94A6B5" text-anchor="middle" dominant-baseline="alphabetic">⋮</text>
+<text x="980" y="622" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="800" fill="#F4F8F5" text-anchor="middle" dominant-baseline="alphabetic" letter-spacing="1.2">16 NEURONS</text>
+<text x="1330" y="290" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="800" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic" letter-spacing="1.4">OUTPUT</text>
+<circle cx="1330" cy="432" r="22" fill="#131F2B" stroke="#B9F17D" stroke-width="2.6"/>
+<circle cx="1330" cy="432" r="7" fill="#B9F17D"/>
+<text x="1330" y="622" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="800" fill="#F4F8F5" text-anchor="middle" dominant-baseline="alphabetic" letter-spacing="1.2">1 NEURON</text>
+<rect x="398" y="448" width="64" height="36" rx="9" fill="#080D14" stroke="#293747" stroke-width="1"/>
+<text x="430" y="473" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="800" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic">48</text>
+<rect x="765" y="448" width="64" height="36" rx="9" fill="#080D14" stroke="#293747" stroke-width="1"/>
+<text x="797" y="473" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="800" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic">272</text>
+<rect x="1128" y="448" width="64" height="36" rx="9" fill="#080D14" stroke="#293747" stroke-width="1"/>
+<text x="1160" y="473" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="800" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic">17</text>
+<rect x="69" y="660" width="1462" height="88" rx="16" fill="#101824" stroke="#293747" stroke-width="1"/>
+<text x="107" y="698" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="800" fill="#94A6B5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="2">PARAMETERS</text>
+<text x="107" y="729" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic">(2×16 + 16) + (16×16 + 16) + (16×1 + 1)</text>
+<text x="1487" y="725" font-family="Inter,Arial,sans-serif" font-size="70" font-weight="800" fill="#B9F17D" text-anchor="end" dominant-baseline="alphabetic">337</text>
+</svg>

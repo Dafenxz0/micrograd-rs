@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="micrograd-rs GitHub social preview card">
+<title>micrograd-rs GitHub social preview card</title>
+<defs>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B9F17D"/><stop offset="1" stop-color="#9FE6DF"/></linearGradient>
+ <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#141F2F"/><stop offset="1" stop-color="#080D14"/></linearGradient>
+ <linearGradient id="aubergine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#251B3A"/><stop offset="1" stop-color="#101824"/></linearGradient>
+ <radialGradient id="glow"><stop offset="0" stop-color="#B9F17D" stop-opacity="0.22"/><stop offset="1" stop-color="#B9F17D" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M 38 0 L 0 0 0 38" fill="none" stroke="#27303E" stroke-opacity="0.32" stroke-width="1"/></pattern>
+ <marker id="arrow" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#94A6B5"/></marker>
+ <marker id="arrowlime" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#B9F17D"/></marker>
+ </defs>
+<rect x="0" y="0" width="1200" height="630" rx="0" fill="#080D14"/>
+<rect x="0" y="0" width="1200" height="630" rx="0" fill="url(#grid)"/>
+<rect x="32" y="30" width="1136" height="570" rx="25" fill="url(#night)" stroke="#293747" stroke-width="1"/>
+<circle cx="920" cy="320" r="390" fill="url(#glow)"/>
+<rect x="75" y="73" width="48" height="48" rx="12" fill="#B9F17D"/>
+<text x="99" y="108" font-family="Inter,Arial,sans-serif" font-size="31" font-weight="800" fill="#080D14" text-anchor="middle" dominant-baseline="alphabetic">µ</text>
+<text x="140" y="103" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" fill="#94A6B5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="1.7">RUST / DIFFERENTIABLE COMPUTING</text>
+<text x="73" y="260" font-family="Inter,Arial,sans-serif" font-size="87" font-weight="800" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="-3">micrograd</text>
+<text x="556" y="260" font-family="Inter,Arial,sans-serif" font-size="87" font-weight="800" fill="#B9F17D" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="-3">.rs</text>
+<text x="77" y="322" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="600" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic">Tiny engine. Complete gradients.</text>
+<text x="77" y="365" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="500" fill="#94A6B5" text-anchor="start" dominant-baseline="alphabetic">Understand backprop, one scalar at a time.</text>
+<rect x="77" y="418" width="154" height="32" rx="8" fill="#213326"/>
+<text x="154.0" y="439" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic" letter-spacing="1.2">ZERO DEPENDENCIES</text>
+<rect x="244" y="418" width="166" height="32" rx="8" fill="#173139"/>
+<text x="327.0" y="439" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#9FE6DF" text-anchor="middle" dominant-baseline="alphabetic" letter-spacing="1.2">GRAPHVIZ TRACING</text>
+<rect x="75" y="509" width="537" height="1" rx="0" fill="#293747"/>
+<text x="75" y="545" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" fill="#B9F17D" text-anchor="start" dominant-baseline="alphabetic">github.com/Dafenxz0/micrograd-rs</text>
+<path d="M821 185 L956 263" stroke="#94A6B5" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowlime)"/>
+<path d="M822 393 L953 312" stroke="#94A6B5" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowlime)"/>
+<path d="M1005 294 L1084 294" stroke="#94A6B5" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowlime)"/>
+<text x="1059" y="267" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="800" fill="#B9F17D" text-anchor="start" dominant-baseline="alphabetic">²</text>
+<circle cx="790" cy="175" r="57" fill="#131F2B" stroke="#C3AEFF" stroke-width="2"/>
+<text x="790" y="178" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="800" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic">a</text>
+<text x="790" y="203" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" fill="#94A6B5" text-anchor="middle" dominant-baseline="alphabetic">2.0</text>
+<circle cx="790" cy="400" r="57" fill="#131F2B" stroke="#C3AEFF" stroke-width="2"/>
+<text x="790" y="403" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="800" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic">b</text>
+<text x="790" y="428" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" fill="#94A6B5" text-anchor="middle" dominant-baseline="alphabetic">−3.0</text>
+<circle cx="978" cy="288" r="57" fill="#131F2B" stroke="#C3AEFF" stroke-width="2"/>
+<text x="978" y="291" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="800" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic">×</text>
+<text x="978" y="316" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" fill="#94A6B5" text-anchor="middle" dominant-baseline="alphabetic">−6.0</text>
+<circle cx="1111" cy="288" r="57" fill="#131F2B" stroke="#B9F17D" stroke-width="2"/>
+<text x="1111" y="291" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="800" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic">L</text>
+<text x="1111" y="316" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" fill="#94A6B5" text-anchor="middle" dominant-baseline="alphabetic">36</text>
+</svg>

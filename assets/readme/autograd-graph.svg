@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="805" viewBox="0 0 1600 805" role="img" aria-label="micrograd-rs computation graph reverse-mode gradient example">
+<title>micrograd-rs computation graph reverse-mode gradient example</title>
+<defs>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B9F17D"/><stop offset="1" stop-color="#9FE6DF"/></linearGradient>
+ <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#141F2F"/><stop offset="1" stop-color="#080D14"/></linearGradient>
+ <linearGradient id="aubergine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#251B3A"/><stop offset="1" stop-color="#101824"/></linearGradient>
+ <radialGradient id="glow"><stop offset="0" stop-color="#B9F17D" stop-opacity="0.22"/><stop offset="1" stop-color="#B9F17D" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M 38 0 L 0 0 0 38" fill="none" stroke="#27303E" stroke-opacity="0.32" stroke-width="1"/></pattern>
+ <marker id="arrow" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#94A6B5"/></marker>
+ <marker id="arrowlime" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#B9F17D"/></marker>
+ </defs>
+<rect x="0" y="0" width="1600" height="805" rx="0" fill="#080D14"/>
+<rect x="0" y="0" width="1600" height="805" rx="0" fill="url(#grid)"/>
+<rect x="70" y="60" width="43.2" height="43.2" rx="10.8" fill="#B9F17D"/>
+<text x="91.6" y="91.5" font-family="Inter,Arial,sans-serif" font-size="27.900000000000002" font-weight="800" fill="#080D14" text-anchor="middle" dominant-baseline="alphabetic">µ</text>
+<text x="126" y="85" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" fill="#B9F17D" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="2.1">AUTOGRAD / THE ENGINE</text>
+<text x="70" y="170" font-family="Inter,Arial,sans-serif" font-size="62" font-weight="800" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="-1.5">Every value has a history.</text>
+<text x="72" y="213" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="500" fill="#94A6B5" text-anchor="start" dominant-baseline="alphabetic">A complete forward pass and the exact gradients computed backward.</text>
+<rect x="70" y="247" width="1460" height="1" rx="0" fill="#293747"/>
+<rect x="70" y="275" width="196" height="32" rx="8" fill="#213326"/>
+<text x="168.0" y="296" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic" letter-spacing="1.2">FORWARD  →  DATA</text>
+<rect x="278" y="275" width="244" height="32" rx="8" fill="#2A2441"/>
+<text x="400.0" y="296" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#C3AEFF" text-anchor="middle" dominant-baseline="alphabetic" letter-spacing="1.2">BACKWARD  ←  GRAD</text>
+<path d="M282 418 C360 418 402 486 437 486" stroke="#94A6B5" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M282 555 C365 555 388 486 437 486" stroke="#94A6B5" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M635 486 C735 486 742 548 800 548" stroke="#94A6B5" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M282 692 C590 692 673 596 799 558" stroke="#94A6B5" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M996 548 L1158 548" stroke="#94A6B5" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M1353 548 L1467 548" stroke="#94A6B5" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowlime)"/>
+<path d="M1155 616 L1004 616" stroke="#C3AEFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.7" stroke-dasharray="6 9"/>
+<path d="M785 644 L653 644" stroke="#C3AEFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.7" stroke-dasharray="6 9"/>
+<rect x="144" y="373.0" width="138" height="90" rx="12" fill="#131F2B" stroke="#293747" stroke-width="1.4"/>
+<rect x="144" y="373.0" width="5" height="90" rx="2" fill="#B9F17D"/>
+<text x="163" y="407" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="800" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="1">A</text>
+<text x="163" y="434" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#B9F17D" text-anchor="start" dominant-baseline="alphabetic">data = 2</text>
+<text x="163" y="453" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#C3AEFF" text-anchor="start" dominant-baseline="alphabetic">grad = -24</text>
+<rect x="144" y="510.0" width="138" height="90" rx="12" fill="#131F2B" stroke="#293747" stroke-width="1.4"/>
+<rect x="144" y="510.0" width="5" height="90" rx="2" fill="#B9F17D"/>
+<text x="163" y="544" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="800" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="1">B</text>
+<text x="163" y="571" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#B9F17D" text-anchor="start" dominant-baseline="alphabetic">data = -3</text>
+<text x="163" y="590" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#C3AEFF" text-anchor="start" dominant-baseline="alphabetic">grad = 16</text>
+<rect x="144" y="647.0" width="138" height="90" rx="12" fill="#131F2B" stroke="#293747" stroke-width="1.4"/>
+<rect x="144" y="647.0" width="5" height="90" rx="2" fill="#B9F17D"/>
+<text x="163" y="681" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="800" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="1">C</text>
+<text x="163" y="708" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#B9F17D" text-anchor="start" dominant-baseline="alphabetic">data = 10</text>
+<text x="163" y="727" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#C3AEFF" text-anchor="start" dominant-baseline="alphabetic">grad = 8</text>
+<rect x="502" y="441.0" width="194" height="90" rx="12" fill="#131F2B" stroke="#293747" stroke-width="1.4"/>
+<rect x="502" y="441.0" width="5" height="90" rx="2" fill="#C3AEFF"/>
+<text x="521" y="475" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="800" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="1">MULTIPLY</text>
+<text x="521" y="502" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#B9F17D" text-anchor="start" dominant-baseline="alphabetic">data = -6</text>
+<text x="521" y="521" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#C3AEFF" text-anchor="start" dominant-baseline="alphabetic">grad = 8</text>
+<rect x="862" y="503.0" width="138" height="90" rx="12" fill="#131F2B" stroke="#293747" stroke-width="1.4"/>
+<rect x="862" y="503.0" width="5" height="90" rx="2" fill="#C3AEFF"/>
+<text x="881" y="537" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="800" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="1">ADD</text>
+<text x="881" y="564" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#B9F17D" text-anchor="start" dominant-baseline="alphabetic">data = 4</text>
+<text x="881" y="583" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#C3AEFF" text-anchor="start" dominant-baseline="alphabetic">grad = 8</text>
+<rect x="1220" y="503.0" width="194" height="90" rx="12" fill="#131F2B" stroke="#293747" stroke-width="1.4"/>
+<rect x="1220" y="503.0" width="5" height="90" rx="2" fill="#C3AEFF"/>
+<text x="1239" y="537" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="800" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="1">SQUARE</text>
+<text x="1239" y="564" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#B9F17D" text-anchor="start" dominant-baseline="alphabetic">data = 16</text>
+<text x="1239" y="583" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#C3AEFF" text-anchor="start" dominant-baseline="alphabetic">grad = 1</text>
+<rect x="1467" y="512" width="98" height="73" rx="13" fill="#B9F17D"/>
+<text x="1516" y="544" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="900" fill="#080D14" text-anchor="middle" dominant-baseline="alphabetic">L</text>
+<text x="1516" y="566" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#080D14" text-anchor="middle" dominant-baseline="alphabetic">16.0</text>
+<text x="510" y="386" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="600" fill="#94A6B5" text-anchor="start" dominant-baseline="alphabetic">a × b</text>
+<text x="873" y="440" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="600" fill="#94A6B5" text-anchor="start" dominant-baseline="alphabetic">(a × b) + c</text>
+<text x="1229" y="440" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="600" fill="#94A6B5" text-anchor="start" dominant-baseline="alphabetic">[(a × b) + c]²</text>
+<rect x="70" y="742" width="1460" height="1" rx="0" fill="#293747"/>
+<text x="70" y="779" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="600" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic">a = 2   ·   b = −3   ·   c = 10   ·   L = (ab + c)² = 16</text>
+<text x="1530" y="779" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" fill="#B9F17D" text-anchor="end" dominant-baseline="alphabetic">∂L/∂a = −24   ·   ∂L/∂b = 16   ·   ∂L/∂c = 8</text>
+</svg>

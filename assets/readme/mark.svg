@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="micrograd-rs monogram logo">
+<title>micrograd-rs monogram logo</title>
+<defs>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B9F17D"/><stop offset="1" stop-color="#9FE6DF"/></linearGradient>
+ <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#141F2F"/><stop offset="1" stop-color="#080D14"/></linearGradient>
+ <linearGradient id="aubergine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#251B3A"/><stop offset="1" stop-color="#101824"/></linearGradient>
+ <radialGradient id="glow"><stop offset="0" stop-color="#B9F17D" stop-opacity="0.22"/><stop offset="1" stop-color="#B9F17D" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M 38 0 L 0 0 0 38" fill="none" stroke="#27303E" stroke-opacity="0.32" stroke-width="1"/></pattern>
+ <marker id="arrow" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#94A6B5"/></marker>
+ <marker id="arrowlime" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#B9F17D"/></marker>
+ </defs>
+<rect x="0" y="0" width="512" height="512" rx="0" fill="#080D14"/>
+<rect x="33" y="33" width="446" height="446" rx="96" fill="url(#night)" stroke="#293747" stroke-width="3"/>
+<path d="M90 360 C140 340 159 287 206 285 S278 192 342 179" stroke="#B9F17D" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="92" cy="359" r="15" fill="#B9F17D"/>
+<circle cx="209" cy="284" r="15" fill="#C3AEFF"/>
+<circle cx="344" cy="178" r="15" fill="#B9F17D"/>
+<text x="128" y="267" font-family="Inter,Arial,sans-serif" font-size="158" font-weight="800" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic">µ</text>
+<text x="350" y="425" font-family="Inter,Arial,sans-serif" font-size="48" font-weight="800" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic">rs</text>
+</svg>

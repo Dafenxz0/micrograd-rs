@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="660" viewBox="0 0 1600 660" role="img" aria-label="micrograd-rs / scalar automatic differentiation in Rust">
+<title>micrograd-rs / scalar automatic differentiation in Rust</title>
+<defs>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B9F17D"/><stop offset="1" stop-color="#9FE6DF"/></linearGradient>
+ <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#141F2F"/><stop offset="1" stop-color="#080D14"/></linearGradient>
+ <linearGradient id="aubergine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#251B3A"/><stop offset="1" stop-color="#101824"/></linearGradient>
+ <radialGradient id="glow"><stop offset="0" stop-color="#B9F17D" stop-opacity="0.22"/><stop offset="1" stop-color="#B9F17D" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M 38 0 L 0 0 0 38" fill="none" stroke="#27303E" stroke-opacity="0.32" stroke-width="1"/></pattern>
+ <marker id="arrow" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#94A6B5"/></marker>
+ <marker id="arrowlime" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#B9F17D"/></marker>
+ </defs>
+<rect x="0" y="0" width="1600" height="660" rx="0" fill="#080D14"/>
+<rect x="0" y="0" width="1600" height="660" rx="0" fill="url(#grid)"/>
+<circle cx="1250" cy="320" r="455" fill="url(#glow)"/>
+<rect x="64" y="48" width="1472" height="560" rx="24" fill="url(#night)" stroke="#293747" stroke-width="1"/>
+<rect x="112" y="108" width="55.199999999999996" height="55.199999999999996" rx="13.799999999999999" fill="#B9F17D"/>
+<text x="139.6" y="148.25" font-family="Inter,Arial,sans-serif" font-size="35.65" font-weight="800" fill="#080D14" text-anchor="middle" dominant-baseline="alphabetic">µ</text>
+<text x="189" y="151" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" fill="#94A6B5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="2.2">DAFENX / ENGINEERING LAB</text>
+<rect x="116" y="215" width="120" height="32" rx="8" fill="#213326"/>
+<text x="176.0" y="236" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic" letter-spacing="1.2">RUST 2021</text>
+<rect x="247" y="215" width="162" height="32" rx="8" fill="#173139"/>
+<text x="328.0" y="236" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#9FE6DF" text-anchor="middle" dominant-baseline="alphabetic" letter-spacing="1.2">ZERO CRATES</text>
+<rect x="420" y="215" width="188" height="32" rx="8" fill="#302942"/>
+<text x="514.0" y="236" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#C3AEFF" text-anchor="middle" dominant-baseline="alphabetic" letter-spacing="1.2">REVERSE MODE</text>
+<text x="110" y="351" font-family="Inter,Arial,sans-serif" font-size="111" font-weight="800" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="-5">micrograd</text>
+<text x="678" y="351" font-family="Inter,Arial,sans-serif" font-size="111" font-weight="800" fill="#B9F17D" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="-4">.rs</text>
+<text x="116" y="411" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="500" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic">Autograd, stripped to its essentials.</text>
+<text x="117" y="452" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="500" fill="#94A6B5" text-anchor="start" dominant-baseline="alphabetic">A tiny scalar engine. A real computation graph.</text>
+<text x="117" y="486" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="500" fill="#94A6B5" text-anchor="start" dominant-baseline="alphabetic">Backpropagation you can read, trace and build on.</text>
+<rect x="116" y="530" width="538" height="1" rx="0" fill="#293747"/>
+<text x="116" y="564" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#9FE6DF" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="1.5">VALUE  /  DAG  /  BACKWARD()  /  MLP</text>
+<path d="M1072 230 L1165 295" stroke="#94A6B5" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowlime)"/>
+<path d="M1072 390 L1165 325" stroke="#94A6B5" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowlime)"/>
+<path d="M1276 310 L1362 310" stroke="#94A6B5" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowlime)"/>
+<path d="M1280 440 L1380 338" stroke="#94A6B5" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowlime)"/>
+<path d="M1420 362 L1420 420" stroke="#94A6B5" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowlime)"/>
+<rect x="963" y="192" width="114" height="76" rx="13" fill="#101824" stroke="#293747" stroke-width="1.3"/>
+<text x="1020" y="229" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="800" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic">a</text>
+<text x="1020" y="254" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#94A6B5" text-anchor="middle" dominant-baseline="alphabetic">2.0</text>
+<rect x="963" y="352" width="114" height="76" rx="13" fill="#101824" stroke="#293747" stroke-width="1.3"/>
+<text x="1020" y="389" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="800" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic">b</text>
+<text x="1020" y="414" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#94A6B5" text-anchor="middle" dominant-baseline="alphabetic">−3.0</text>
+<rect x="1163" y="272" width="114" height="76" rx="13" fill="#101824" stroke="#293747" stroke-width="1.3"/>
+<text x="1220" y="309" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="800" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic">×</text>
+<text x="1220" y="334" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#94A6B5" text-anchor="middle" dominant-baseline="alphabetic">−6.0</text>
+<rect x="1163" y="402" width="114" height="76" rx="13" fill="#101824" stroke="#293747" stroke-width="1.3"/>
+<text x="1220" y="439" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="800" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic">c</text>
+<text x="1220" y="464" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#94A6B5" text-anchor="middle" dominant-baseline="alphabetic">10.0</text>
+<rect x="1363" y="272" width="114" height="76" rx="13" fill="#101824" stroke="#293747" stroke-width="1.3"/>
+<text x="1420" y="309" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="800" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic">+</text>
+<text x="1420" y="334" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#94A6B5" text-anchor="middle" dominant-baseline="alphabetic">4.0</text>
+<rect x="1363" y="437" width="114" height="76" rx="13" fill="#101824" stroke="#293747" stroke-width="1.3"/>
+<text x="1420" y="474" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="800" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic">L</text>
+<text x="1420" y="499" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#94A6B5" text-anchor="middle" dominant-baseline="alphabetic">16.0</text>
+<text x="1446" y="399" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="800" fill="#B9F17D" text-anchor="start" dominant-baseline="alphabetic">²</text>
+<text x="1194" y="162" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" fill="#B9F17D" text-anchor="middle" dominant-baseline="alphabetic" letter-spacing="2">DYNAMIC COMPUTATION GRAPH</text>
+<path d="M116 601 L1480 601" stroke="#293747" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="116" y="632" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#94A6B5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="1.8">01 / ENGINE</text>
+<text x="1480" y="632" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#94A6B5" text-anchor="end" dominant-baseline="alphabetic" letter-spacing="1">BUILT FOR LEARNING, NOT BLACK BOXES.</text>
+</svg>

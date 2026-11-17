@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="730" viewBox="0 0 1600 730" role="img" aria-label="micrograd-rs four-stage gradient descent training loop">
+<title>micrograd-rs four-stage gradient descent training loop</title>
+<defs>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B9F17D"/><stop offset="1" stop-color="#9FE6DF"/></linearGradient>
+ <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#141F2F"/><stop offset="1" stop-color="#080D14"/></linearGradient>
+ <linearGradient id="aubergine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#251B3A"/><stop offset="1" stop-color="#101824"/></linearGradient>
+ <radialGradient id="glow"><stop offset="0" stop-color="#B9F17D" stop-opacity="0.22"/><stop offset="1" stop-color="#B9F17D" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M 38 0 L 0 0 0 38" fill="none" stroke="#27303E" stroke-opacity="0.32" stroke-width="1"/></pattern>
+ <marker id="arrow" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#94A6B5"/></marker>
+ <marker id="arrowlime" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#B9F17D"/></marker>
+ </defs>
+<rect x="0" y="0" width="1600" height="730" rx="0" fill="#080D14"/>
+<rect x="0" y="0" width="1600" height="730" rx="0" fill="url(#grid)"/>
+<rect x="70" y="60" width="43.2" height="43.2" rx="10.8" fill="#B9F17D"/>
+<text x="91.6" y="91.5" font-family="Inter,Arial,sans-serif" font-size="27.900000000000002" font-weight="800" fill="#080D14" text-anchor="middle" dominant-baseline="alphabetic">µ</text>
+<text x="126" y="85" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" fill="#B9F17D" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="2.1">HOW IT LEARNS / TRAINING LOOP</text>
+<text x="70" y="170" font-family="Inter,Arial,sans-serif" font-size="62" font-weight="800" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="-1.5">Forward. Differentiate. Update.</text>
+<text x="72" y="213" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="500" fill="#94A6B5" text-anchor="start" dominant-baseline="alphabetic">Four operations, one transparent gradient-descent step.</text>
+<rect x="70" y="244" width="1460" height="1" rx="0" fill="#293747"/>
+<rect x="69" y="298" width="350" height="326" rx="18" fill="#101824" stroke="#293747" stroke-width="1"/>
+<rect x="91" y="322" width="59" height="35" rx="9" fill="#9FE6DF"/>
+<text x="120" y="345" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="800" fill="#080D14" text-anchor="middle" dominant-baseline="alphabetic">01</text>
+<text x="91" y="415" font-family="Inter,Arial,sans-serif" font-size="32" font-weight="800" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="-0.6">FORWARD</text>
+<text x="91" y="457" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#94A6B5" text-anchor="start" dominant-baseline="alphabetic">Build a fresh DAG</text>
+<rect x="89" y="493" width="308" height="102" rx="12" fill="#0A101A" stroke="#24313D" stroke-width="1"/>
+<text x="103" y="534" font-family="monospace" font-size="19" font-weight="700" fill="#9FE6DF" text-anchor="start" dominant-baseline="alphabetic">model.forward_scalar</text>
+<text x="103" y="562" font-family="monospace" font-size="19" font-weight="500" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic">(&amp;inputs)</text>
+<path d="M421 452 L436 452" stroke="#B9F17D" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowlime)"/>
+<rect x="441" y="298" width="350" height="326" rx="18" fill="#101824" stroke="#293747" stroke-width="1"/>
+<rect x="463" y="322" width="59" height="35" rx="9" fill="#B9F17D"/>
+<text x="492" y="345" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="800" fill="#080D14" text-anchor="middle" dominant-baseline="alphabetic">02</text>
+<text x="463" y="415" font-family="Inter,Arial,sans-serif" font-size="32" font-weight="800" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="-0.6">LOSS</text>
+<text x="463" y="457" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#94A6B5" text-anchor="start" dominant-baseline="alphabetic">Measure error</text>
+<rect x="461" y="493" width="308" height="102" rx="12" fill="#0A101A" stroke="#24313D" stroke-width="1"/>
+<text x="475" y="534" font-family="monospace" font-size="18" font-weight="700" fill="#B9F17D" text-anchor="start" dominant-baseline="alphabetic">margin_loss</text>
+<text x="475" y="562" font-family="monospace" font-size="16" font-weight="500" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic">+ L2 regularization</text>
+<path d="M793 452 L808 452" stroke="#B9F17D" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowlime)"/>
+<rect x="813" y="298" width="350" height="326" rx="18" fill="#101824" stroke="#293747" stroke-width="1"/>
+<rect x="835" y="322" width="59" height="35" rx="9" fill="#C3AEFF"/>
+<text x="864" y="345" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="800" fill="#080D14" text-anchor="middle" dominant-baseline="alphabetic">03</text>
+<text x="835" y="415" font-family="Inter,Arial,sans-serif" font-size="32" font-weight="800" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="-0.6">BACKWARD</text>
+<text x="835" y="457" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#94A6B5" text-anchor="start" dominant-baseline="alphabetic">Accumulate gradients</text>
+<rect x="833" y="493" width="308" height="102" rx="12" fill="#0A101A" stroke="#24313D" stroke-width="1"/>
+<text x="847" y="534" font-family="monospace" font-size="19" font-weight="700" fill="#C3AEFF" text-anchor="start" dominant-baseline="alphabetic">zero_grad()</text>
+<text x="847" y="562" font-family="monospace" font-size="19" font-weight="500" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic">backward()</text>
+<path d="M1165 452 L1180 452" stroke="#B9F17D" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowlime)"/>
+<rect x="1185" y="298" width="350" height="326" rx="18" fill="#101824" stroke="#293747" stroke-width="1"/>
+<rect x="1207" y="322" width="59" height="35" rx="9" fill="#FFCC91"/>
+<text x="1236" y="345" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="800" fill="#080D14" text-anchor="middle" dominant-baseline="alphabetic">04</text>
+<text x="1207" y="415" font-family="Inter,Arial,sans-serif" font-size="32" font-weight="800" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="-0.6">UPDATE</text>
+<text x="1207" y="457" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#94A6B5" text-anchor="start" dominant-baseline="alphabetic">Adjust the parameters</text>
+<rect x="1205" y="493" width="308" height="102" rx="12" fill="#0A101A" stroke="#24313D" stroke-width="1"/>
+<text x="1219" y="534" font-family="monospace" font-size="17" font-weight="700" fill="#FFCC91" text-anchor="start" dominant-baseline="alphabetic">weight ← weight</text>
+<text x="1219" y="562" font-family="monospace" font-size="17" font-weight="500" fill="#F4F8F5" text-anchor="start" dominant-baseline="alphabetic">− lr × gradient</text>
+<rect x="70" y="661" width="1457" height="1" rx="0" fill="#293747"/>
+<text x="70" y="699" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="800" fill="#B9F17D" text-anchor="start" dominant-baseline="alphabetic" letter-spacing="1">SOURCE   examples/moons_mlp.rs</text>
+<text x="1526" y="699" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#94A6B5" text-anchor="end" dominant-baseline="alphabetic">REBUILD GRAPH EACH STEP · ZERO PARAMETER GRADIENTS BEFORE BACKWARD</text>
+</svg>
